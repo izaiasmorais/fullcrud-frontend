@@ -1,5 +1,5 @@
 <h1 align='center'>
-   Full CRUD
+   Fullcrud (Front-end)
 </h1>
 
 <p align="center">Um crud completo feito em React e GraphQL.</p>
