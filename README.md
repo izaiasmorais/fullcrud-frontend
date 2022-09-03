@@ -27,7 +27,7 @@ Gerenciador de cadastro de clientes, que usa MongoDB para armazenamento de dados
 
 ## 💻 Clonando projeto
 
-Essa aplicação é dividida em duas partes, uma sendo essa (front-end) e outra back-end hospedada [aqui](). Caso queira cloná-la a aplicação completa, você precisa ter baixadas as duas pastas (front e back) numa pasta só e depois é só seguir as instruções.
+Essa aplicação é dividida em duas partes, uma sendo essa (front-end) e outra back-end hospedada [aqui](). Caso queira clonar a aplicação completa, você precisa ter baixadas as duas pastas (front e back) numa pasta só e depois é só seguir as instruções.
 
 ```bash
 # Abra seu terminal e digite:
