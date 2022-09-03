@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align='center'>
+   Full CRUD
+</h1>
 
-## Getting Started
+<p align="center">Um crud completo feito em React e GraphQL.</p>
 
-First, run the development server:
+## 📃 Sobre o projeto
+
+Gerenciador de cadastro de clientes, que usa MongoDB para armazenamento de dados e GraphQL para queries e mutations. Baseado no sistema CRUD, um acrônimo para as quatro funções que são essenciais em uma aplicação que envolve armazanamento de dados. Em ordem, as funções são **create**, **read**, **update** e **delete**.
+
+
+### Funcionalidades
+
+- Adicionar dados.
+- Ler dados existentes.
+- Atualizar dados.
+- Deletar dados.
+
+## 🚀 Tecnologias
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ChakraUI](https://chakra-ui.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [GraphQL](https://graphql.org/)
+- [ApolloClient](https://www.apollographql.com/docs/react/)
+
+## 💻 Clonando projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Abra seu terminal e digite:
+$ git clone https://github.com/izaiasmorais/fullcrud.git && cd fullcrud
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Defina a variável ambiente no frontend:
+APOLLO_URL=http://localhost:4000
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Defina a variável ambiente no backend:
+MONGODB_API=<link da sua API Mongodb>
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Instalando dependências. Na rota /frontend e /backend digite:
+$ yarn
 
-## Learn More
+# Rodando o projeto. Na rota /frontend e /backend digite:
+$ yarn dev
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
